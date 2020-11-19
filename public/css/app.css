@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css2?family=Gugi&display=swap);
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+@media (max-width: 768px) and (min-width: 576px) {
+  #home-responsive {
+    padding: 0px;
+  }
+}
+
+body {
+  min-width: 512px;
+}
+
+nav {
+  font-family: 'Gugi', cursive;
+}
+
+nav #banner {
+  text-decoration: none;
+  color: #ff4411;
+  margin-top: 8px;
+}
+
+nav #user-button {
+  background: #292b2c;
+  padding: 10px 14px 10px 14px;
+}
+
+nav #user-button:hover {
+  background: #101112;
+  transition: all 0.3 ease;
+}
+
+nav #user-button:active {
+  background: black;
+}
+
+nav #logout-button {
+  background: #292b2c;
+  padding: 10px 12px 10px 12px;
+}
+
+nav #logout-button:hover {
+  background: #101112;
+  transition: all 0.3 ease;
+}
+
+nav #logout-button:active {
+  background: black;
+}
+
+nav #user-icon,
+nav #logout-icon {
+  color: white;
+}
+
+#home-element {
+  margin: 25px auto 25px auto;
+}
+
+#sidebar {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #292b2c;
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+  padding: 20px;
+}
+
+#sidebar ul li a {
+  padding: 10px 0px 10px 20px;
+  font-size: 1em;
+  color: white;
+  text-decoration: none;
+  display: block;
+  min-width: 195px;
+}
+
+#sidebar ul li a:hover {
+  color: black;
+  background: #fff;
+}
+
+#movies-list #movie-item {
+    margin-top: 20px;
+}
