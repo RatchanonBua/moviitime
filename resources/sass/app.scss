@@ -1,1 +1,59 @@
-//
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@mixin button-animated($color, $padding) {
+    background: $color;
+    padding: 10px $padding 10px $padding;
+    &:hover {
+        background: darken($color, 10%);
+        transition: all 0.3 ease;
+    }
+    &:active {
+        background: darken($color, 25%);
+    }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+    #home-responsive { padding: 0px; }
+}
+
+body { min-width: 512px; }
+
+nav {
+    font-family: 'Gugi', cursive;
+    #banner {
+        text-decoration: none;
+        color: #ff4411;
+        margin-top: 8px;
+    }
+    #user-button { @include button-animated(#292b2c, 14px); }
+    #logout-button { @include button-animated(#292b2c, 12px); }
+    #user-icon, #logout-icon { color: white; }
+}
+
+#home-element { margin: 25px auto 25px auto; }
+
+#sidebar {
+    width: fit-content;
+    background: #292b2c;
+    color: #fff;
+    border-radius: 10px;
+    transition: all 0.3s;
+    .sidebar-header { padding: 20px; }
+    ul li a {
+        padding: 10px 0px 10px 20px;
+        font-size: 1em;
+        color: white;
+        text-decoration: none;
+        display: block;
+        min-width: 195px;
+    }
+    ul li a:hover {
+        color: black;
+        background: #fff;
+    }
+}
+
+#movies-list #movie-item {
+    margin-top: 20px;
+}
