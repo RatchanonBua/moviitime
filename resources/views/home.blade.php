@@ -43,7 +43,7 @@
                     @for ($item = 0; $item < 9; $item++)
                     <div class="col-4" id="movie-item">
                         <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="{{ url('http://placehold.it/400x500') }}" alt=""></a>
+                            <a href="#"><img class="card-img-top" src="{{ url('http://placehold.it/400x500') }}"></a>
                             <div class="card-body"><h6>EXAMPLE</h6></div>
                             <div class="card-footer">
                                 @for ($i = 0; $i < 5; $i++)

@@ -1,10 +1,12 @@
-@import url(https://fonts.googleapis.com/css2?family=Gugi&display=swap);
-@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 @media (max-width: 768px) and (min-width: 576px) {
-  #home-responsive {
-    padding: 0px;
-  }
+  #home-responsive { padding: 0px; }
+  #movie-responsive #manage-image { padding-left: 0px; }
+  #movie-responsive #manage-info { padding: 0px; }
+  #movie-responsive #manage-info label { padding-left: 0px; }
 }
 
 body {
@@ -12,7 +14,7 @@ body {
 }
 
 nav {
-  font-family: 'Gugi', cursive;
+  font-family: "Gugi", cursive;
 }
 
 nav #banner {
@@ -49,8 +51,7 @@ nav #logout-button:active {
   background: black;
 }
 
-nav #user-icon,
-nav #logout-icon {
+nav #user-icon, nav #logout-icon {
   color: white;
 }
 
@@ -87,5 +88,18 @@ nav #logout-icon {
 }
 
 #movies-list #movie-item {
-    margin-top: 20px;
+  margin-top: 20px;
+}
+
+#movie-element {
+  font-family: "Kanit", sans-serif;
+  margin: 25px auto 25px auto;
+}
+
+#movie-element #manage-image #img-name-div {
+  margin: 10px 0px;
+}
+
+#movie-element #manage-info label {
+  margin: 6px 0px 0px 0px;
 }
