@@ -11,16 +11,18 @@
             <i class="fa fa-sign-out" id="logout-icon"></i>
         </a>
         {{-- Collapse Menu --}}
-        <div class="collapse navbar-collapse" id="userNavbar">
+        <div class="collapse navbar-collapse" id="user-navbar">
             <ul class="navbar-nav ml-auto">
                 {{-- User Dropdown --}}
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    <a class="nav-link dropdown-toggle" id="navbar-dropdown" role="button" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false" href="#">Administrator </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Profile</a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbar-dropdown">
+                        <a class="dropdown-item" href="#">
+                            <i class="fa fa-user"></i>&emsp;Profile</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Logout</a>
+                        <a class="dropdown-item" href="#">
+                            <i class="fa fa-sign-out"></i>&ensp;&nbsp;Logout</a>
                     </div>
                 </li>
             </ul>
