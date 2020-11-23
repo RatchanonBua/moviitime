@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container" id="review-element">
+    <div class="container content-element">
         {{-- Movie Information --}}
         <div class="row" id="review-primary-row">
             {{-- Movie Name --}}
@@ -22,11 +22,11 @@
             </div>
         </div>
         {{-- Movie Content --}}
-        <div class="row" id="review-movie-content">
+        <div class="row pt-2">
             <div class="col-lg-6 order-2 order-lg-1">
                 <div class="row">
                     {{-- Movie Image --}}
-                    <div class="col-xl-5 col-lg-6 col-5" id="review-movie-img">
+                    <div class="col-xl-5 col-lg-6 col-5 pr-0" id="review-movie-img">
                         <img width="100%" src="{{ url('https://images-na.ssl-images-amazon.com/images/I/910t9BoIymL._AC_SL1500_.jpg') }}">
                     </div>
                     {{-- Movie Information --}}

@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container" id="movie-element">
+    <div class="container content-element">
         {{-- IMAGE INPUT --}}
         <div class="row" id="movie-responsive">
             {{-- IMAGE HOLDER --}}
-            <div class="col-sm-5" id="manage-image">
+            <div class="col-sm-5" id="image-manager">
                 <div id="img-modify-div"><img class="card-img-top" src="{{ url('http://placehold.it/400x400') }}"></div>
-                <div class="input-group" id="img-name-div">
+                <div class="input-group my-3">
                     <div class="input-group-prepend">
                         <label class="btn btn-info" id="input-img-file">
                             <i class="fa fa-paperclip"></i>
@@ -18,7 +18,7 @@
                 </div>
             </div>
             {{-- INfO INPUT --}}
-            <div class="col-sm-7" id="manage-info">
+            <div class="col-sm-7 pl-0" id="info-manager">
                 {{-- NAME --}}
                 <div class="row form-group">
                     <div class="input-group col-12">

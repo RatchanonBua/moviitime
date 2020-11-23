@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container" id="home-element">
+    <div class="container content-element">
         <div class="row">
             {{-- Left Content --}}
             <div class="col-lg-3">
@@ -41,7 +41,7 @@
                 {{-- Movies List --}}
                 <div class="row" id="movies-list">
                     @for ($item = 0; $item < 9; $item++)
-                    <div class="col-4" id="movie-item">
+                    <div class="col-md-4 col-6 mt-3">
                         <div class="card h-100">
                             <a href="#"><img class="card-img-top" src="{{ url('http://placehold.it/400x500') }}"></a>
                             <div class="card-body"><h6>EXAMPLE</h6></div>

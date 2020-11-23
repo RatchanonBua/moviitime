@@ -15,7 +15,7 @@
             <ul class="navbar-nav ml-auto">
                 {{-- User Dropdown --}}
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbar-dropdown" role="button" data-toggle="dropdown"
+                    <a class="nav-link dropdown-toggle pr-0" id="navbar-dropdown" role="button" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false" href="#">Administrator </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbar-dropdown">
                         <a class="dropdown-item" href="#">
