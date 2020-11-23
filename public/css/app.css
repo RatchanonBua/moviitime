@@ -110,3 +110,9 @@ nav #user-icon, nav #logout-icon { color: white; }
 .star-rating > input:checked ~ label { color: #ffca08; }
 
 .star-rating > input:hover ~ label { color: #ffca08; }
+
+table .user-table-header, table .user-table-row { font-size: 15px; }
+
+table .user-table-row a { font-size: 1.5em; }
+
+table .user-table-row td { vertical-align: middle; }

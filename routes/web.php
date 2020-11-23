@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home'); });
+Route::get('/admin/user_list', function () {
+    return view('admin'); });
 Route::get('/movies/create_movie', function() {
     return view('movie'); });
 Route::get('/movies/example_movie', function() {

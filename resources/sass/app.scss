@@ -90,3 +90,12 @@ nav {
 		}
 	}
 }
+
+table {
+    .user-table-header { font-size: 15px; }
+    .user-table-row {
+        font-size: 15px;
+        a { font-size: 1.5em; }
+        td { vertical-align: middle; }
+    }
+}
